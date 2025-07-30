@@ -1,0 +1,17 @@
+python inner working
+first code is compiled to byte code (low level & platform independent)
+.byte code runs faster
+.pyc complies python(frozen binary)
+__pycache__ is a special folder that Python automatically creates to store compiled bytecode files for your .py source files.
+
+when you import some function of other file in other so in that case
+a __pycache__ folder create in that hello.cpyhton-version.pyc named bytecode genrate
+but byte code files are genrated only for imported files not for top levels files
+
+.....
+PVM python virtual machine
+it is called run time engine
+also called python interpreter
+It reads bytecode line-by-line, executes using a call stack, manages memory, handles exceptions, etc.
+## byte code is not a machine code
+
