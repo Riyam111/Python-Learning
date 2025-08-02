@@ -1,0 +1,27 @@
+✅ Immutable Data Types
+Once created, you cannot change their content. If you try, a new object is created.
+Examples:
+int – Integer
+float – Floating-point numbers
+bool – Boolean
+str – String
+tuple – Tuple
+frozenset – Immutable set
+bytes – Immutable byte array
+eg=>username="Riya"
+it will create a space where "Riya" is created
+now if you created username="Maurya"
+then it will create another space where "Maurya" is created
+now if you print username you will get Maurya
+but wait now you thought that here username value change then how you say that it is Immutable
+let me explain , when you point username to new value then "Riya" is not change rather your username point to new varible and after 
+some time global "Riya" space will cleanup but it will not change 
+
+✅ Mutable Data Types
+Their content can be changed after creation, without changing the object's identity.
+Examples:
+list – List
+dict – Dictionary
+set – Set
+bytearray – Mutable byte array
+user-defined classes (by default)
