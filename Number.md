@@ -121,6 +121,10 @@ lemon coffee
 >>> print(flavour.split(", "))
 ['lemon', 'ginger', 'masala', 'mint']
 >>>
+names = input().strip().split(",")
+it will take input as riya,raju,adi
+then remove extra space
+then make a list ["riya","raju"]
 ```
 ### use of find , count, format
 ```
@@ -185,6 +189,30 @@ c:\user\pwd
 True
 >>>
 ```
+
+### how zip ( ) work
+```
+names = ["sachin", "ramesh", "kalam"]
+dates = [100, 50, 100]
+
+zipped = zip(names, dates)
+print(list(zipped))
+output is =>>[("sachin", 100), ("ramesh", 50), ("kalam", 100)]
+```
+
+### how to store number correspond to values vector
+```
+names = ["sachin", "ramesh", "kalam"]
+dates = [100, 50, 100]
+birthday_map = {}
+
+for name, date in zip(names, dates):
+    birthday_map.setdefault(date, []).append(name)
+
+print(birthday_map)
+output=>{100: ["sachin", "kalam"], 50: ["ramesh"]}
+```
+
 
 
 
