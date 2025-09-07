@@ -7,3 +7,6 @@ print(array3)
 # making default array to fill it with 0
 array3=np.zeros((2,3))
 print(array3)
+# full(shape,value)
+full_array=np.full((2,2),5)
+print(full_array)
