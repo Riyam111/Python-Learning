@@ -18,4 +18,8 @@ ans=arr_2d[0]+vector
 print(res)
 print(ans)
 
+"""
+👉 Broadcasting means NumPy automatically stretches arrays of different shapes to make their shapes compatible during arithmetic operations.
+It avoids explicit loops and lets you do operations between arrays of different sizes.
 
+"""
